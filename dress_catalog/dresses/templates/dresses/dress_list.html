@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Каталог платьев</title>
+    <link rel="stylesheet" type="text/css" href="C:\Sarvar 8 A\dress_catalog\dress_catalog\static">
+</head>
+<body>
+    <h1>Каталог платьев</h1>
+
+    <div class="dress-list">
+        {% for dress in dresses %}
+        <div class="dress-item">
+            <img src="{{ dress.image.url }}" alt="{{ dress.name }}">
+            <h2>{{ dress.name }}</h2>
+            <p class="price">{{ dress.price }} руб.</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dress-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dress-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.dress-item img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+}
